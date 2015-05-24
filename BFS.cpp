@@ -30,7 +30,7 @@ void bfs(int a[10][10], int source, int length, int visited[10])
 		cout << "The node " << i << "is not reachable\n";
 		
 }
-int mainBFS()
+int main()
 {
 	int n, a[10][10], source,visted[10];
 	cout << "Enter the number of verticse\n";

@@ -15,9 +15,9 @@ void dfs(int a[10][10], int source, int n, int visited[10])
 int main()
 {
 	int n, visited[10], a[10][10], source;
-	cout << "Enter the number of verticse\n";
+	cout << "Enter the number of vertices\n";
 	cin >> n;
-	cout << "Enter the adjancency matrix\n";
+	cout << "Enter the adjacency matrix\n";
 	for (int i = 1; i <= n; i++)
 	for (int j = 1; j <= n; j++)
 		cin >> a[i][j];
